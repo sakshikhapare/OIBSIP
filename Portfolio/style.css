@@ -1,0 +1,166 @@
+@import url(‘https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600&display=swap’);
+*{
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+nav{
+    height:60px;
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav>a{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 25px;
+    text-decoration: none;
+}
+nav>a:hover{
+    font-weight: bold;
+    color: #3c146e;
+}
+.profile{
+    background: url("./assets/portfolio-bg.png");
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.profile img{
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+}
+.profile p{
+    font-family:cursive;
+    font-weight: bold;
+    font-size: 54px;
+    margin-top: 25px;
+}
+#profile span{
+    width: 310px;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 100;
+}
+.profile button{
+    width: 150px;
+    background: none;
+    padding: 15px;
+    border-radius: 5px;
+    border-color: white;
+    margin: 30px;
+}
+.profile a{
+    font-family: "Poppins";
+    font-size: 18px;
+    text-decoration: none;
+}
+.profile button:hover{
+    box-shadow: 0px 1px 2px 0px white;
+}
+
+.about,.skills, .work, .lets-talk{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+#about{
+    height: 400px;
+    background-color: #1E1E1E
+}
+h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+.about-text, .icons{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    width: 1200px;
+}
+.about-text,.skills,.card,.lets-talk span,.copyright{
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 18px;
+ 
+}
+.icons{
+    font-size: 30px;
+}
+.about-text>p{
+    width: 300px;
+    text-align: center;
+}
+.skills{
+    height: 500px;
+    background-color: #121212;
+}
+
+.progress{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.progress>progress{
+    width: 400px;
+}
+.work{
+    height: 700px;
+    background-color: #1E1E1E;
+    text-align: center;
+}
+
+.work-pics{
+    width: 85%;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: space-around;
+}
+.card{
+    height: 250px;
+    margin-top: 30px;
+    background-color: #121212;
+}
+
+.card img{
+    width: 100%;
+    height: 200px;
+}
+
+.card a{
+    text-decoration: none;
+}
+
+ .lets-talk{
+     height: 300px;
+     background-color: #121212;
+ }
+ .lets-talk span{
+    width: 400px;
+    text-align: center;
+    margin-top: 10px;
+ }
+ .lets-talk a{
+     width: 150px;
+     font-family:'Times New Roman', Times, serif;
+     font-weight: bold;
+     font-size: 16px;
+     background-color: #ed61ff;
+     margin-top: 30px;
+     text-align: center;
+     text-decoration: none;
+     border-radius: 5px;
+ }
+ .copyright{
+     margin-top: 50px;
+     color: #c939a9;
+ }
